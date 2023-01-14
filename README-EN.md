@@ -120,6 +120,6 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 ## License
 
-![cc-by](./img/by.webp)
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">OBS Scene Collection: Advanced-PET</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/DriCro6663/advanced-pet" property="cc:attributionName" rel="cc:attributionURL">Dri Cro</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 Please also check the [LICENSE](.LICENSE) file.
