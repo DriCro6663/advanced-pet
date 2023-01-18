@@ -48,7 +48,7 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 
 ## Demo
 
-[![Demo-Youtube](https://www.youtube.com/watch?v=bSzE_OE9-NU/0.jpg)](https://www.youtube.com/watch?v=bSzE_OE9-NU)
+[![Demo-Youtube](https://img.youtube.com/vi/bSzE_OE9-NU/0.jpg)](https://www.youtube.com/watch?v=bSzE_OE9-NU)
 
 ## How to use
 
