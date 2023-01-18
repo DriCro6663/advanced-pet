@@ -107,7 +107,9 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 ## Updates
 
-* 2023/01/13:<br>v0.0.1-alpha is released. Backup of the production in progress.
+* 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) released. Added taskbar animation setting.
+
+* 2023/01/13:<br>[v0.0.1-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.1) released. Backup of the production in progress.
 
 ## Developer Information & Responsibility
 

@@ -108,7 +108,9 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 ## 更新情報
 
-* 2023/01/13:<br>v0.0.1-alphaを公開。とり、製作途中のバックアップ。
+* 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) を公開。タスクバーのアニメーション設定した。
+
+* 2023/01/13:<br>[v0.0.1-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.1) を公開。とり、製作途中のバックアップ。
 
 ## 開発者情報 & 文責
 
