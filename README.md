@@ -49,7 +49,7 @@
 
 ## デモ
 
-[![Demo-Youtube](https://img.youtube.com/vi/bSzE_OE9-NU/0.jpg)](https://www.youtube.com/watch?v=bSzE_OE9-NU)
+[![Demo-Youtube](https://img.youtube.com/vi/YNTyu1tz2Hg/0.jpg)](https://www.youtube.com/watch?v=YNTyu1tz2Hg)
 
 ## 使い方
 
@@ -107,6 +107,8 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 * 本シーンコレクションは予告なく配布を終了する場合があります。
 
 ## 更新情報
+
+* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3)を公開。配信待機・ちょっと待って・配信終了シーンを追加。各アニメーション設定の整理。
 
 * 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) を公開。タスクバーのアニメーション設定した。
 

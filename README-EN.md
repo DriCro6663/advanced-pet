@@ -48,7 +48,7 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 
 ## Demo
 
-[![Demo-Youtube](https://img.youtube.com/vi/bSzE_OE9-NU/0.jpg)](https://www.youtube.com/watch?v=bSzE_OE9-NU)
+[![Demo-Youtube](https://img.youtube.com/vi/YNTyu1tz2Hg/0.jpg)](https://www.youtube.com/watch?v=YNTyu1tz2Hg)
 
 ## How to use
 
@@ -106,6 +106,8 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 * This scene collection may be discontinued without notice.
 
 ## Updates
+
+* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3). Added delivery standby, wait a minute, and end-of-delivery scenes. Organized each animation settings.
 
 * 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) released. Added taskbar animation setting.
 
