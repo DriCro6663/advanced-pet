@@ -49,21 +49,23 @@
 
 ## デモ
 
-[![Demo-Youtube](https://img.youtube.com/vi/YNTyu1tz2Hg/0.jpg)](https://www.youtube.com/watch?v=YNTyu1tz2Hg)
+[![Demo-Youtube](https://img.youtube.com/vi/L_6Jv1JhglI/0.jpg)](https://www.youtube.com/watch?v=L_6Jv1JhglI)
 
 ## 使い方
 
-1. 以下ののプラグインを [OBS](https://obsproject.com/ja) にインストールしてください。
+1. [OBS](https://obsproject.com/ja) と [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) をインストールしてください。<br>※私は SAMMI を C:\Program Files\SAMMI に置いています。
+
+2. 以下ののプラグインを [OBS](https://obsproject.com/ja) にインストールしてください。
 
     * [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/)
     * [Move transition](https://obsproject.com/forum/resources/move-transition.913/)
     * [StreamFX](https://obsproject.com/forum/resources/streamfx-for-obs%C2%AE-studio.578/)
 
-        > 2023/01/13 現在、私は [StreamFX 0.12.0 Alpha 151](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.12.0a151) を使用しています。ご使用の OBS によって、StreamFX の Version を選んでご使用ください。
+        > 2023/01/25 現在、私は [StreamFX 0.12.0 Alpha 151](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.12.0a151) を使用しています。ご使用の OBS によって、StreamFX の Version を選んでご使用ください。
 
-2. [Release](https://github.com/DriCro6663//releases) からダウンロードして圧縮ファイルを解凍してください。
+3. [Release](https://github.com/DriCro6663//releases) からシーンコレクションをダウンロードして圧縮ファイルを解凍してください。
 
-3. [kurocha](https://kurocha.jp/) 様の [記事：OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager) を参考にして、[Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を用いてシーンコレクションの json ファイルをインポートしてください。
+4. [kurocha](https://kurocha.jp/) 様の [記事：OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager) を参考に、[Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を用いてシーンコレクションの json ファイルをインポートしてください。
 
     <details><summary>
     画像：シーンコレクションバックアップのインポート
@@ -77,6 +79,22 @@
     
     > [OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager)
     </details>
+
+5. シーンコレクションをインポート後、下記を参考に BGM や SE を設定してください。
+
+   * BGM: [深層世界](https://oto.how/sound/457), 再生速度：150 %, 音量：-32.0 db
+   * PET-boot-se: [サウンドデザイン-04](https://koukaon.g-sozai.com/se-532.html), 再生速度：50 %, 音量：-8.0 db
+   * task-bar-se: [Cyber11-1](https://otologic.jp/free/se/cyber02.html), 再生速度：200 %, 音量：+8.0 db
+   * loading-se: [Cyber13-1](https://otologic.jp/free/se/cyber02.html)
+   * scene-change-se: [Cyber14-1](https://otologic.jp/free/se/cyber02.html)
+   * decision-se: [Cyber15-1](https://otologic.jp/free/se/cyber02.html)
+   * PET-frame-se: [Cyber16-2](https://otologic.jp/free/se/cyber02.html)
+   * v-se: [Cyber17-1](https://otologic.jp/free/se/cyber02.html)
+
+6. [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) のデック環境をインポートします。下記のどちらかの方法でインポートしてください。<br>※念のため、インポート前にバックアップを作成しておいてください。
+
+   1. SAMMI を起動して、[Backup] -> [Load SAMMI Backup] から sbf ファイルを選択してバックアップをインポートしてください。
+   2. SAMMI のフォルダに移動して、json/decks_data.json を付属の decks_data.json に更新してください。
 
 ## 環境
 
@@ -102,13 +120,15 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 * 本シーンコレクションは、[LioranBoard 2](https://github.com/LioranWaters/Lioranboard2Update) や [SAMMI](https://sammi.solutions/) を使用することを前提に作成しています。今後のアップデートで追加を予定しています。
 
-* 効果音も付属したいですが再配布になってしまうので、リンクを載せることにします。
+* 効果音も付属したいですが[再配布]扱いになってしまうことが怖いので、リンクを載せることにします。リンクからダウンロードして、パスを認識させてください。
 
 * 本シーンコレクションは予告なく配布を終了する場合があります。
 
 ## 更新情報
 
-* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3)を公開。配信待機・ちょっと待って・配信終了シーンを追加。各アニメーション設定の整理。
+* 2023/01/25:<br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) を公開。GBA-3:2 シーンを追加。コメントシーンの追加・整理。BGM, SE の追加。SAMMI のデックを追加。
+
+* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3) を公開。配信待機・ちょっと待って・配信終了シーンを追加。各アニメーション設定の整理。
 
 * 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) を公開。タスクバーのアニメーション設定した。
 
@@ -122,6 +142,12 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 * [PieceX DriCro6663](https://www.piecex.com/users/profile/DriCro6663)
 * [ドリクロの備忘録](https://dri-cro-6663.jp/)
 * dri.cro.6663@gmail.com
+
+## クレジット
+
+* BGM by [Oto.how](https://oto.how/)
+* SE by [OtoLogic](https://otologic.jp/) (CC BY 4.0)
+* SE by [ジーソザイ](https://koukaon.g-sozai.com/)
 
 ## ライセンス
 

@@ -48,11 +48,13 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 
 ## Demo
 
-[![Demo-Youtube](https://img.youtube.com/vi/YNTyu1tz2Hg/0.jpg)](https://www.youtube.com/watch?v=YNTyu1tz2Hg)
+[![Demo-Youtube](https://img.youtube.com/vi/L_6Jv1JhglI/0.jpg)](https://www.youtube.com/watch?v=L_6Jv1JhglI)
 
 ## How to use
 
-1. Install the following plug-ins to [OBS](https://obsproject.com).
+1. Install [OBS](https://obsproject.com/en) and [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases). <br> * I put SAMMI in C:\Program Files\SAMMI.
+
+2. Install the following plug-ins to [OBS](https://obsproject.com).
 
     * [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/)
     * [Move transition](https://obsproject.com/forum/resources/move-transition.913/)
@@ -60,9 +62,9 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 
         > As of 01/13/2023, I am using [StreamFX 0.12.0 Alpha 151](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.12.0a151). Please select the version of StreamFX according to your OBS.
 
-2. Download from [Release](https://github.com/DriCro6663//releases) and extract the compressed file.
+3. Download from [Release](https://github.com/DriCro6663//releases) and extract the compressed file.
 
-3. Refer to [kurocha](https://kurocha.jp/)'s [Article: Plug-in for easy and convenient OBS backup](https://kurocha.jp/obs-scene-collection-manager) and use [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) to import json files of scene collections.
+4. Refer to [kurocha](https://kurocha.jp/)'s [Article: Plug-in for easy and convenient OBS backup](https://kurocha.jp/obs-scene-collection-manager) and use [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) to import json files of scene collections.
 
     <details><summary>
     Image: Import scene collection backup
@@ -76,6 +78,22 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
     
     > [Plug-in for easy and convenient OBS backup](https://kurocha.jp/obs-scene-collection-manager)
     </details>
+
+5. After importing the scene collection, please refer to the following to set BGM and SE.
+
+   * BGM: [Deep World](https://oto.how/sound/457), Playback speed: 150 %, Volume: -32.0 db
+    * PET-boot-se: [Sound Design-04](https://koukaon.g-sozai.com/se-532.html), Playback speed: 50 %, Volume: -8.0 db
+    * task-bar-se: [Cyber11-1](https://otologic.jp/free/se/cyber02.html), Playback speed: 200 %, Volume: +8.0 db
+    * loading-se: [Cyber13-1](https://otologic.jp/free/se/cyber02.html)
+    * scene-change-se: [Cyber14-1](https://otologic.jp/free/se/cyber02.html)
+    * decision-se: [Cyber15-1](https://otologic.jp/free/se/cyber02.html)
+    * PET-frame-se: [Cyber16-2](https://otologic.jp/free/se/cyber02.html)
+    * v-se: [Cyber17-1](https://otologic.jp/free/se/cyber02.html)
+
+6. Import deck environment from [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases). Please import by one of the following methods. <br>* Just in case, make a backup before importing.
+
+    1. Start SAMMI, select sbf file from [Backup] -> [Load SAMMI Backup] and import the backup.
+    2. Go to SAMMI's folder and update json/decks_data.json to the supplied decks_data.json.
 
 ## Environment
 
@@ -107,7 +125,9 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 ## Updates
 
-* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3). Added delivery standby, wait a minute, and end-of-delivery scenes. Organized each animation settings.
+* 2023/01/25: <br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) released. Added GBA-3:2 scene. Add/organize comment scenes. Added BGM and SE. Added SAMMI's deck.
+
+* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3) released. Added delivery standby, wait a minute, and end-of-delivery scenes. Organized each animation settings.
 
 * 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) released. Added taskbar animation setting.
 
@@ -121,6 +141,12 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 * [PieceX DriCro6663](https://www.piecex.com/users/profile/DriCro6663)
 * [Memorandum of DriCro](https://dri-cro-6663.jp/)
 * dri.cro.6663@gmail.com
+
+## Credits
+
+* BGM by [Oto.how](https://oto.how/)
+* SE by [OtoLogic](https://otologic.jp/) (CC BY 4.0)
+* SE by [G-Sozai](https://koukaon.g-sozai.com/)
 
 ## License
 
