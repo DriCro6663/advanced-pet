@@ -49,7 +49,7 @@
 
 ## デモ
 
-[![Demo-Youtube](https://img.youtube.com/vi/L_6Jv1JhglI/0.jpg)](https://www.youtube.com/watch?v=L_6Jv1JhglI)
+[![Demo-Youtube-v0.0.5](https://img.youtube.com/vi/A_FBLUMkuO8/0.jpg)](https://www.youtube.com/watch?v=A_FBLUMkuO8)
 
 ## 使い方
 
@@ -61,11 +61,19 @@
     * [Move transition](https://obsproject.com/forum/resources/move-transition.913/)
     * [StreamFX](https://obsproject.com/forum/resources/streamfx-for-obs%C2%AE-studio.578/)
 
-        > 2023/01/25 現在、私は [StreamFX 0.12.0 Alpha 151](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.12.0a151) を使用しています。ご使用の OBS によって、StreamFX の Version を選んでご使用ください。
+        > 2023/02/01 現在、私は [StreamFX 0.12.0 Alpha 151](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.12.0a151) を使用しています。ご使用の OBS によって、StreamFX の Version を選んでご使用ください。
 
-3. [Release](https://github.com/DriCro6663//releases) からシーンコレクションをダウンロードして圧縮ファイルを解凍してください。
+3. 下記リンクを参考に [OBS](https://obsproject.com/ja) と [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) の接続設定を行ってください。<br>※元々、LioranBoard 2 と SAMMI は同じソフトなので参考になるはずです。
 
-4. [kurocha](https://kurocha.jp/) 様の [記事：OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager) を参考に、[Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を用いてシーンコレクションの json ファイルをインポートしてください。
+    > [LioranBoard 2の導入方法・TwitchとYouTube Liveとの連携](https://kurocha.jp/lioranboard2-setup)
+    >
+    > [【OBS】最強の無料ストリームデック LioranBoard2 導入ガイド配信【 VTuber / 毘沙門天ゆるいこ】](https://www.youtube.com/live/Vf76nyIeeng?feature=share)
+
+4. [Release](https://github.com/DriCro6663//releases) からシーンコレクションをダウンロードして圧縮ファイルを解凍してください。
+
+5. 下記リンクを参考に [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を用いてシーンコレクションの json ファイルをインポートしてください。
+
+    > [OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager)
 
     <details><summary>
     画像：シーンコレクションバックアップのインポート
@@ -80,21 +88,38 @@
     > [OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager)
     </details>
 
-5. シーンコレクションをインポート後、下記を参考に BGM や SE を設定してください。
+    <details><summary>
+    ※インポート後に問題があった場合、以下のサウンド設定を参考にしてください。
+    </summary>
 
-   * BGM: [深層世界](https://oto.how/sound/457), 再生速度：150 %, 音量：-32.0 db
-   * PET-boot-se: [サウンドデザイン-04](https://koukaon.g-sozai.com/se-532.html), 再生速度：50 %, 音量：-8.0 db
-   * task-bar-se: [Cyber11-1](https://otologic.jp/free/se/cyber02.html), 再生速度：200 %, 音量：+8.0 db
-   * loading-se: [Cyber13-1](https://otologic.jp/free/se/cyber02.html)
-   * scene-change-se: [Cyber14-1](https://otologic.jp/free/se/cyber02.html)
-   * decision-se: [Cyber15-1](https://otologic.jp/free/se/cyber02.html)
-   * PET-frame-se: [Cyber16-2](https://otologic.jp/free/se/cyber02.html)
-   * v-se: [Cyber17-1](https://otologic.jp/free/se/cyber02.html)
+    * BGM: [深層世界](https://oto.how/sound/457), 再生速度：150 %, 音量：-32.0 db
+    * ED: [Seeds for the future / Free BGM Ver.](https://www.d-elf.com/free-bgm/free-bgm-ending), 音量：-16.0 db
+    * PET-boot-se: [サウンドデザイン-04](https://koukaon.g-sozai.com/se-532.html), 再生速度：50 %, 音量：-8.0 db
+    * task-bar-se: [Cyber11-1](https://otologic.jp/free/se/cyber02.html), 再生速度：200 %, 音量：+8.0 db
+    * loading-se: [Cyber13-1](https://otologic.jp/free/se/cyber02.html)
+    * scene-change-se: [Cyber14-1](https://otologic.jp/free/se/cyber02.html)
+    * decision-se: [Cyber15-1](https://otologic.jp/free/se/cyber02.html)
+    * PET-frame-se: [Cyber16-2](https://otologic.jp/free/se/cyber02.html)
+    * v-se: [Cyber17-1](https://otologic.jp/free/se/cyber02.html)
 
-6. [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) のデック環境をインポートします。下記のどちらかの方法でインポートしてください。<br>※念のため、インポート前にバックアップを作成しておいてください。
+    </details>
 
-   1. SAMMI を起動して、[Backup] -> [Load SAMMI Backup] から sbf ファイルを選択してバックアップをインポートしてください。
-   2. SAMMI のフォルダに移動して、json/decks_data.json を付属の decks_data.json に更新してください。
+6. [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) のデック環境をインポートしてください。<br>※念のため、インポート前にバックアップを作成しておいてください。
+
+    1. SAMMI を起動してください。
+    2. 解凍後の SAMMI フォルダ内にあるデックの json ファイルを開き、中身をコピーしてください。
+    3. その後、SAMMI 上で [Paste Deck] 項目を選択して、デックを展開してください。
+
+    <br>
+
+    > デック共有  
+    > SAMMI で、共有したいデッキを選択して、その上で右クリックして「デッキをコピー」を選択します。これで、JSON のデッキデータがすべてクリップボードにコピーされる。その後、それをテキストファイルに貼り付けて、他の人と共有することができます。  
+    > 　デッキをインポートするには、SAMMI のサイドメニューで Paste Deck を押してください。
+    >
+    > Share a deck  
+    > In SAMMI, select a deck you wish to share with someone, right click on it and select Copy Deck. This will copy all your JSON deck data into your clipboard. You can then paste it into a text file to share with others.  
+    > To Import a deck, press Paste Deck in SAMMI’s side menu.  
+    > [SAMMI FAQ -Buttons & Commands-](https://sammi.solutions/docs/faq/commands)
 
 ## 環境
 
@@ -118,21 +143,27 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
     </details>
 
-* 本シーンコレクションは、[LioranBoard 2](https://github.com/LioranWaters/Lioranboard2Update) や [SAMMI](https://sammi.solutions/) を使用することを前提に作成しています。今後のアップデートで追加を予定しています。
-
-* 効果音も付属したいですが[再配布]扱いになってしまうことが怖いので、リンクを載せることにします。リンクからダウンロードして、パスを認識させてください。
+* 本シーンコレクションは、[LioranBoard 2](https://github.com/LioranWaters/Lioranboard2Update) や [SAMMI](https://sammi.solutions/) を使用することを前提に作成しています。
 
 * 本シーンコレクションは予告なく配布を終了する場合があります。
 
 ## 更新情報
 
-* 2023/01/25:<br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) を公開。GBA-3:2 シーンを追加。コメントシーンの追加・整理。BGM, SE の追加。SAMMI のデックを追加。
+* 2023/02/01:<br>[v0.0.5-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.5) を公開。<br>DS・4:3 シーンを追加。ED の追加。SAMMI のデックを整理：よく使う処理の関数化。
 
-* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3) を公開。配信待機・ちょっと待って・配信終了シーンを追加。各アニメーション設定の整理。
+    <details><summary>
+    これまでの更新情報
+    </summary>
 
-* 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) を公開。タスクバーのアニメーション設定した。
+    * 2023/01/25:<br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) を公開。<br>GBA-3:2 シーンを追加。コメントシーンの追加・整理。BGM, SE の追加。SAMMI のデックを追加。
 
-* 2023/01/13:<br>[v0.0.1-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.1) を公開。とり、製作途中のバックアップ。
+    * 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3) を公開。<br>配信待機・ちょっと待って・配信終了シーンを追加。各アニメーション設定の整理。
+
+    * 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) を公開。タスクバーのアニメーション設定した。
+
+    * 2023/01/13:<br>[v0.0.1-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.1) を公開。とり、製作途中のバックアップ。
+
+    </details>
 
 ## 開発者情報 & 文責
 
@@ -146,6 +177,7 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 ## クレジット
 
 * BGM by [Oto.how](https://oto.how/)
+* ED by [D-elf.com](https://www.d-elf.com/)
 * SE by [OtoLogic](https://otologic.jp/) (CC BY 4.0)
 * SE by [ジーソザイ](https://koukaon.g-sozai.com/)
 

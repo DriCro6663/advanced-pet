@@ -48,7 +48,7 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 
 ## Demo
 
-[![Demo-Youtube](https://img.youtube.com/vi/L_6Jv1JhglI/0.jpg)](https://www.youtube.com/watch?v=L_6Jv1JhglI)
+[![Demo-Youtube-v0.0.5](https://img.youtube.com/vi/A_FBLUMkuO8/0.jpg)](https://www.youtube.com/watch?v=A_FBLUMkuO8)
 
 ## How to use
 
@@ -62,9 +62,15 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 
         > As of 01/13/2023, I am using [StreamFX 0.12.0 Alpha 151](https://github.com/Xaymar/obs-StreamFX/releases/tag/0.12.0a151). Please select the version of StreamFX according to your OBS.
 
-3. Download from [Release](https://github.com/DriCro6663//releases) and extract the compressed file.
+3. Please refer to the link below to set up the connection between [OBS](https://obsproject.com/ja) and [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases). <br>*Originally, LioranBoard 2 and SAMMI are the same software, so it should be helpful.
 
-4. Refer to [kurocha](https://kurocha.jp/)'s [Article: Plug-in for easy and convenient OBS backup](https://kurocha.jp/obs-scene-collection-manager) and use [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) to import json files of scene collections.
+    > [How to install LioranBoard 2 and work with Twitch and YouTube Live](https://kurocha.jp/lioranboard2-setup)
+    >
+    > [OBS] The most powerful free streamdeck LioranBoard2 introduction guide distribution [VTuber / Bishamonten Liyukko](https://www.youtube.com/live/Vf76nyIeeng?feature=share)
+
+4. Download from [Release](https://github.com/DriCro6663//releases) and extract the compressed file.
+
+5. Refer to [kurocha](https://kurocha.jp/)'s [Article: Plug-in for easy and convenient OBS backup](https://kurocha.jp/obs-scene-collection-manager) and use [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) to import json files of scene collections.
 
     <details><summary>
     Image: Import scene collection backup
@@ -79,9 +85,11 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
     > [Plug-in for easy and convenient OBS backup](https://kurocha.jp/obs-scene-collection-manager)
     </details>
 
-5. After importing the scene collection, please refer to the following to set BGM and SE.
+    <details><summary>
+    *If you have any problems after importing, please refer to the following sound settings.
+    </summary>
 
-   * BGM: [Deep World](https://oto.how/sound/457), Playback speed: 150 %, Volume: -32.0 db
+    * BGM: [Deep World](https://oto.how/sound/457), Playback speed: 150 %, Volume: -32.0 db
     * PET-boot-se: [Sound Design-04](https://koukaon.g-sozai.com/se-532.html), Playback speed: 50 %, Volume: -8.0 db
     * task-bar-se: [Cyber11-1](https://otologic.jp/free/se/cyber02.html), Playback speed: 200 %, Volume: +8.0 db
     * loading-se: [Cyber13-1](https://otologic.jp/free/se/cyber02.html)
@@ -90,10 +98,20 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
     * PET-frame-se: [Cyber16-2](https://otologic.jp/free/se/cyber02.html)
     * v-se: [Cyber17-1](https://otologic.jp/free/se/cyber02.html)
 
-6. Import deck environment from [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases). Please import by one of the following methods. <br>* Just in case, make a backup before importing.
+    </details>
 
-    1. Start SAMMI, select sbf file from [Backup] -> [Load SAMMI Backup] and import the backup.
-    2. Go to SAMMI's folder and update json/decks_data.json to the supplied decks_data.json.
+6. Import deck environment from [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases). <br>* Just in case, make a backup before importing.
+
+    1. Start SAMMI.
+    2. Open the deck json file in his unzipped SAMMI folder and copy the contents.
+    3. Then select the Paste Deck item on SAMMI to expand the deck.
+
+    <br>
+
+    > Share a deck  
+    > In SAMMI, select a deck you wish to share with someone, right click on it and select Copy Deck. This will copy all your JSON deck data into your clipboard. You can then paste it into a text file to share with others.  
+    > To Import a deck, press Paste Deck in SAMMI’s side menu.  
+    > [SAMMI FAQ -Buttons & Commands-](https://sammi.solutions/docs/faq/commands)
 
 ## Environment
 
@@ -117,21 +135,27 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
     </details>
 
-* This scene collection is designed for use with [LioranBoard 2](https://github.com/LioranWaters/Lioranboard2Update) and [SAMMI](https://sammi.solutions/).
-
-* I would like to include sound effects, but since it would be redistributed, I will include a link to them.
+* This scene collection is created on the premise of using [LioranBoard 2](https://github.com/LioranWaters/Lioranboard2Update) and [SAMMI](https://sammi.solutions/).
 
 * This scene collection may be discontinued without notice.
 
 ## Updates
 
-* 2023/01/25: <br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) released. Added GBA-3:2 scene. Add/organize comment scenes. Added BGM and SE. Added SAMMI's deck.
+* 2023/02/01: <br>[v0.0.5-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.5) released. <br>DS 4:3 scene added. Added ED. Organize the SAMMI deck: make frequently used operations into functions.
 
-* 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3) released. Added delivery standby, wait a minute, and end-of-delivery scenes. Organized each animation settings.
+    <details><summary>
+    Previous Updates
+    </summary>
 
-* 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) released. Added taskbar animation setting.
+    * 2023/01/25: <br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) released. Added GBA-3:2 scene. Add/organize comment scenes. Added BGM and SE. Added SAMMI's deck.
 
-* 2023/01/13:<br>[v0.0.1-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.1) released. Backup of the production in progress.
+    * 2023/01/21:<br>[v0.0.3-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.3) released. Added delivery standby, wait a minute, and end-of-delivery scenes. Organized each animation settings.
+
+    * 2023/01/18:<br>[v0.0.2-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.2) released. Added taskbar animation setting.
+
+    * 2023/01/13:<br>[v0.0.1-alpha](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.1) released. Backup of the production in progress.
+
+    </details>
 
 ## Developer Information & Responsibility
 
@@ -145,6 +169,7 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 ## Credits
 
 * BGM by [Oto.how](https://oto.how/)
+* ED by [D-elf.com](https://www.d-elf.com/)
 * SE by [OtoLogic](https://otologic.jp/) (CC BY 4.0)
 * SE by [G-Sozai](https://koukaon.g-sozai.com/)
 
