@@ -3,6 +3,8 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/DriCro6663/advanced-pet)
 ![GitHub](https://img.shields.io/github/license/DriCro6663/advanced-pet)
 
+[![Demo-Youtube-v1.0.0](https://img.youtube.com/vi/LzrnZg5Scx4/0.jpg)](https://www.youtube.com/watch?v=LzrnZg5Scx4)
+
 This is a scene collection for [OBS](https://obsproject.com/ja), inspired by the PET of Mega Man Exe.
 
 > [Mega Man Exe AXESS ~ Beast+ PET: Advanced-PET series](https://www.nicovideo.jp/watch/sm30540016)
@@ -45,10 +47,6 @@ My abbreviated thanks are hereby extended.
 ## Overview
 
 Scenes created using [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/), inspired by the PET of Mega Man Exe. Collection backup.
-
-## Demo
-
-[![Demo-Youtube-v0.0.5](https://img.youtube.com/vi/A_FBLUMkuO8/0.jpg)](https://www.youtube.com/watch?v=A_FBLUMkuO8)
 
 ## How to use
 
@@ -103,7 +101,7 @@ Scenes created using [Scene Collection Manager](https://obsproject.com/forum/res
 6. Import deck environment from [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases). <br>* Just in case, make a backup before importing.
 
     1. Start SAMMI.
-    2. Open the deck json file in his unzipped SAMMI folder and copy the contents.
+    2. Open the deck json file in the SAMMI folder that you downloaded from the release and unzipped, and copy the contents.
     3. Then select the Paste Deck item on SAMMI to expand the deck.
 
     <br>
@@ -141,11 +139,13 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 ## Updates
 
-* 2023/02/01: <br>[v0.0.5-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.5) released. <br>DS 4:3 scene added. Added ED. Organize the SAMMI deck: make frequently used operations into functions.
+* 2023/02/03: <br>[v1.0.0](https://github.com/DriCro6663/advanced-pet/releases/tag/v1.0.0) released. <br>Improved boot effects. Added end effects.
 
     <details><summary>
     Previous Updates
     </summary>
+
+    * 2023/02/01: <br>[v0.0.5-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.5) released. <br>DS 4:3 scene added. Added ED. Organize the SAMMI deck: make frequently used operations into functions.
 
     * 2023/01/25: <br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) released. Added GBA-3:2 scene. Add/organize comment scenes. Added BGM and SE. Added SAMMI's deck.
 

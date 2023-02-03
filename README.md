@@ -3,6 +3,8 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/DriCro6663/advanced-pet)
 ![GitHub](https://img.shields.io/github/license/DriCro6663/advanced-pet)
 
+[![Demo-Youtube-v1.0.0](https://img.youtube.com/vi/LzrnZg5Scx4/0.jpg)](https://www.youtube.com/watch?v=LzrnZg5Scx4)
+
 ## [- README.md for the English version is here -](./README-EN.md)
 
 ロックマンエグゼの PET をイメージした [OBS](https://obsproject.com/ja) のシーンコレクションです。
@@ -46,10 +48,6 @@
 ## 概要
 
 [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を使用して作成した、ロックマンエグゼの PET をイメージしたシーンコレクションのバックアップです。
-
-## デモ
-
-[![Demo-Youtube-v0.0.5](https://img.youtube.com/vi/A_FBLUMkuO8/0.jpg)](https://www.youtube.com/watch?v=A_FBLUMkuO8)
 
 ## 使い方
 
@@ -107,7 +105,7 @@
 6. [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) のデック環境をインポートしてください。<br>※念のため、インポート前にバックアップを作成しておいてください。
 
     1. SAMMI を起動してください。
-    2. 解凍後の SAMMI フォルダ内にあるデックの json ファイルを開き、中身をコピーしてください。
+    2. リリースからダウンロードして解凍した中の SAMMI フォルダ内にあるデックの json ファイルを開き、中身をコピーしてください。
     3. その後、SAMMI 上で [Paste Deck] 項目を選択して、デックを展開してください。
 
     <br>
@@ -145,15 +143,21 @@ GPU: GeForce® GTX 1050 with 2GB GDDR5
 
 * 本シーンコレクションは、[LioranBoard 2](https://github.com/LioranWaters/Lioranboard2Update) や [SAMMI](https://sammi.solutions/) を使用することを前提に作成しています。
 
+* 本シーンコレクションを使用時に、OBS が重たい、またはフリーズするなどの症状が起きた場合は、下記リンクを参照に Windows のグラフィックス設定を見直したら改善されるかもしれません。
+
+    > [『OBSトラブル対処方法』フリーズ＆固まる（応答無しや無反応）を解決【Vtuberラバルルによるゲーム実況のやり方講座】](https://youtu.be/KP3QfsjP66M)
+
 * 本シーンコレクションは予告なく配布を終了する場合があります。
 
 ## 更新情報
 
-* 2023/02/01:<br>[v0.0.5-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.5) を公開。<br>DS・4:3 シーンを追加。ED の追加。SAMMI のデックを整理：よく使う処理の関数化。
+* 2023/02/03:<br>[v1.0.0](https://github.com/DriCro6663/advanced-pet/releases/tag/v1.0.0) を公開。<br>ブートエフェクトの改善。エンドエフェクトの追加。
 
     <details><summary>
     これまでの更新情報
     </summary>
+
+    * 2023/02/01:<br>[v0.0.5-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.5) を公開。<br>DS・4:3 シーンを追加。ED の追加。SAMMI のデックを整理：よく使う処理の関数化。
 
     * 2023/01/25:<br>[v0.0.4-beta](https://github.com/DriCro6663/advanced-pet/releases/tag/v0.0.4) を公開。<br>GBA-3:2 シーンを追加。コメントシーンの追加・整理。BGM, SE の追加。SAMMI のデックを追加。
 

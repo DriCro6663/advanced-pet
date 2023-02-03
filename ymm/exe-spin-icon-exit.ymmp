@@ -1,0 +1,1366 @@
+﻿{
+  "FilePath": "D:\\Movie-Home\\YMM4\\Materials\\exe-spin-icon-exit.ymmp",
+  "Timeline": {
+    "VideoInfo": {
+      "FPS": 60,
+      "Hz": 48000,
+      "Width": 1920,
+      "Height": 1080
+    },
+    "VerticalLine": {
+      "IsEnabled": false,
+      "StartFrame": 0,
+      "LineType": "BPM",
+      "Line": {
+        "$type": "YukkuriMovieMaker.Project.VerticalBPMLine, YukkuriMovieMaker.General",
+        "BPM": 100
+      },
+      "Group": 4
+    },
+    "Items": [
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.ShapeItem, YukkuriMovieMaker",
+        "ShapeType": "Background",
+        "ShapeParameter": {
+          "$type": "YukkuriMovieMaker.Project.Items.BackgroundShapeParameter, YukkuriMovieMaker",
+          "StrokeThickness": {
+            "From": 4000.0,
+            "To": 0.0,
+            "AnimationType": "なし",
+            "Span": 0.0
+          },
+          "Stroke": "#FFFF0000"
+        },
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 4,
+        "Length": 180,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "E   ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 1,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.05秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.05秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          }
+        ],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 5,
+        "Length": 42,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": " x  ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 1,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.05秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.05秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          }
+        ],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 7,
+        "Length": 48,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "  i ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.05秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.05秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          }
+        ],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 9,
+        "Length": 54,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "   t",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.05秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.05秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.05,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": true
+          }
+        ],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 11,
+        "Length": 60,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "E   ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 1,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.02秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.02,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.13秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.13,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          }
+        ],
+        "Group": 0,
+        "Frame": 42,
+        "Layer": 6,
+        "Length": 138,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": " x  ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 1,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.02秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.02,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.13秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.13,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          }
+        ],
+        "Group": 0,
+        "Frame": 48,
+        "Layer": 8,
+        "Length": 132,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "  i ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.02秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.02,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.13秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.13,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          }
+        ],
+        "Group": 0,
+        "Frame": 54,
+        "Layer": 10,
+        "Length": 126,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "   t",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomMoveEffect, YukkuriMovieMaker",
+            "Label": "ランダム移動 X1920px, Y1080px, 0.02秒",
+            "X": {
+              "From": 1920.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 1080.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.02,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          },
+          {
+            "$type": "YukkuriMovieMaker.Project.Effects.RandomRotateEffect, YukkuriMovieMaker",
+            "Label": "ランダム回転 X0°, Y0°, Z720°, 0.13秒",
+            "X": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Y": {
+              "From": 0.0,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "Z": {
+              "From": 720.0,
+              "To": 0.0,
+              "AnimationType": "Back_InOut",
+              "Span": 0.0
+            },
+            "Span": {
+              "From": 0.13,
+              "To": 0.0,
+              "AnimationType": "なし",
+              "Span": 0.0
+            },
+            "IsEnabled": false
+          }
+        ],
+        "Group": 0,
+        "Frame": 60,
+        "Layer": 12,
+        "Length": 120,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      }
+    ],
+    "LayerSettings": {
+      "Items": [
+        {
+          "Layer": 12,
+          "Label": null,
+          "Color": "#00FFFFFF",
+          "IsHidden": false,
+          "Volume": 100.0
+        }
+      ]
+    },
+    "CurrentFrame": 75,
+    "Length": 180,
+    "MaxLayer": 12
+  },
+  "Characters": [],
+  "CollapsedGroups": []
+}

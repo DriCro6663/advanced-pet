@@ -1,0 +1,2993 @@
+﻿{
+  "FilePath": "D:\\Movie-Home\\YMM4\\Materials\\exe-spin-icon-access.ymmp",
+  "Timeline": {
+    "VideoInfo": {
+      "FPS": 60,
+      "Hz": 48000,
+      "Width": 1920,
+      "Height": 1080
+    },
+    "VerticalLine": {
+      "IsEnabled": false,
+      "StartFrame": 0,
+      "LineType": "BPM",
+      "Line": {
+        "$type": "YukkuriMovieMaker.Project.VerticalBPMLine, YukkuriMovieMaker.General",
+        "BPM": 100
+      },
+      "Group": 4
+    },
+    "Items": [
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.ShapeItem, YukkuriMovieMaker",
+        "ShapeType": "Background",
+        "ShapeParameter": {
+          "$type": "YukkuriMovieMaker.Project.Items.BackgroundShapeParameter, YukkuriMovieMaker",
+          "StrokeThickness": {
+            "From": 4000.0,
+            "To": 0.0,
+            "AnimationType": "なし",
+            "Span": 0.0
+          },
+          "Stroke": "#FFFF0000"
+        },
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 4,
+        "Length": 270,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Access",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": -65.0,
+          "To": 0.0,
+          "AnimationType": "直線移動",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FF003C00",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 170,
+        "Layer": 5,
+        "Length": 10,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "A     ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 1,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 195,
+        "Layer": 6,
+        "Length": 75,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "  c   ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 215,
+        "Layer": 8,
+        "Length": 55,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.5499996",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Access",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FF003C00",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 180,
+        "Layer": 5,
+        "Length": 90,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": " c    ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 4,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 205,
+        "Layer": 7,
+        "Length": 65,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.5499996",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "   e  ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 4,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 225,
+        "Layer": 9,
+        "Length": 45,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.5499996",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "    s ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 4,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 5,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 235,
+        "Layer": 10,
+        "Length": 35,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.5499996",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "     s",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 4,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 5,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 245,
+        "Layer": 11,
+        "Length": 25,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.5499996",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Stream\r\nStart",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 0.0,
+          "To": 100.0,
+          "AnimationType": "直線移動",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": -65.0,
+          "To": 0.0,
+          "AnimationType": "直線移動",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FF003C00",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 0,
+        "Layer": 5,
+        "Length": 15,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Stream\r\nStart",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FF003C00",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 15,
+        "Layer": 5,
+        "Length": 125,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Stream\r\nStart",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "直線移動",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": -65.0,
+          "AnimationType": "直線移動",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 140,
+        "Layer": 6,
+        "Length": 15,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "S     \r\n",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 1,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 25,
+        "Layer": 6,
+        "Length": 115,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": " t    \r\n",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 2,
+            "Length": 4,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 30,
+        "Layer": 7,
+        "Length": 110,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "  r   \r\n",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 1,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 3,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 35,
+        "Layer": 8,
+        "Length": 105,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "   e  \r\n",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 1,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 2,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 4,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 40,
+        "Layer": 9,
+        "Length": 100,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "    a \r\n",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 1,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 3,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 5,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 45,
+        "Layer": 10,
+        "Length": 95,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "     m\r\n",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 1,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 4,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 50,
+        "Layer": 11,
+        "Length": 90,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "\r\nS    ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 60,
+        "Layer": 12,
+        "Length": 80,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "\r\n t   ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 4,
+            "Length": 3,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 65,
+        "Layer": 13,
+        "Length": 75,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "\r\n  a  ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 3,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 5,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 70,
+        "Layer": 14,
+        "Length": 70,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "\r\n   r ",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 4,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 6,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 75,
+        "Layer": 15,
+        "Length": 65,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "\r\n    t",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 0,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 0,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 2,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 3,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 4,
+            "Length": 1,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          },
+          {
+            "Start": 5,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 0.9777777777777777,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": true
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 80,
+        "Layer": 16,
+        "Length": 60,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Stream\r\nStart",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": -65.0,
+          "To": -50.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FFFFFFFF",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "直線移動",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 155,
+        "Layer": 6,
+        "Length": 15,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.1666660",
+        "IsLocked": false,
+        "IsHidden": false
+      },
+      {
+        "$type": "YukkuriMovieMaker.Project.Items.TextItem, YukkuriMovieMaker",
+        "Text": "Stream\r\nStart",
+        "Decorations": [
+          {
+            "Start": 0,
+            "Length": 6,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          },
+          {
+            "Start": 6,
+            "Length": 2,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": true,
+            "HasDecoration": false
+          },
+          {
+            "Start": 8,
+            "Length": 5,
+            "IsBold": false,
+            "IsItalic": false,
+            "Scale": 1.0,
+            "Font": null,
+            "Foreground": null,
+            "IsLineBreak": false,
+            "HasDecoration": false
+          }
+        ],
+        "Font": "PixelMplus10",
+        "FontSize": {
+          "From": 128.0,
+          "To": 1.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LineHeight2": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "LetterSpacing2": {
+          "From": -65.0,
+          "To": -50.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "DisplayInterval": 0.0,
+        "BasePoint": "CenterCenter",
+        "FontColor": "#FF003C00",
+        "Style": "Normal",
+        "StyleColor": "#FF000000",
+        "Bold": false,
+        "Italic": false,
+        "IsDevidedPerCharacter": false,
+        "X": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Y": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Opacity": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Zoom": {
+          "From": 100.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "Rotation": {
+          "From": 0.0,
+          "To": 0.0,
+          "AnimationType": "なし",
+          "Span": 0.0
+        },
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "Blend": "Normal",
+        "IsInverted": false,
+        "IsAlwaysOnTop": false,
+        "IsClippingWithObjectAbove": false,
+        "VideoEffects": [],
+        "Group": 0,
+        "Frame": 155,
+        "Layer": 5,
+        "Length": 15,
+        "PlaybackRate": 100.0,
+        "ContentOffset": "00:00:00.1666660",
+        "IsLocked": false,
+        "IsHidden": false
+      }
+    ],
+    "LayerSettings": {
+      "Items": [
+        {
+          "Layer": 12,
+          "Label": null,
+          "Color": "#00FFFFFF",
+          "IsHidden": false,
+          "Volume": 100.0
+        }
+      ]
+    },
+    "CurrentFrame": 261,
+    "Length": 270,
+    "MaxLayer": 16
+  },
+  "Characters": [],
+  "CollapsedGroups": []
+}
