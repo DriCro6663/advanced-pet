@@ -5,6 +5,21 @@
 
 [![Demo-Youtube-v1.0.0](https://img.youtube.com/vi/LzrnZg5Scx4/0.jpg)](https://www.youtube.com/watch?v=LzrnZg5Scx4)
 
+[obs_builder]:https://github.com/DriCro6663/obs-builder
+[obs]:https://github.com/obsproject/obs-studio/releases
+[obs_27.2.4]:https://github.com/obsproject/obs-studio/releases/tag/27.2.4
+
+[StreamFX]:https://github.com/Xaymar/obs-StreamFX/releases
+[StreamFX_0.11.1]:https://github.com/Xaymar/obs-StreamFX/releases/tag/0.11.1
+
+[Move_transition]:https://obsproject.com/forum/resources/move-transition.913/
+[Move_transition_2.6.1]:https://obsproject.com/forum/resources/move-transition.913/version/4297/download?file=84807
+
+[Scene_Collection_Manager]:https://obsproject.com/forum/resources/scene-collection-manager.1434/
+
+[OBS_websocket_4.9.1]:https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat
+[OBS_websocket_5.0.1]:https://github.com/obsproject/obs-websocket/releases/tag/5.0.1
+
 ## [- README.md for the English version is here -](./README-EN.md)
 
 ロックマンエグゼの PET をイメージした [OBS](https://obsproject.com/ja) のシーンコレクションです。
@@ -49,8 +64,98 @@
 
 [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を使用して作成した、ロックマンエグゼの PET をイメージしたシーンコレクションのバックアップです。
 
-## 使い方
+## 使用方法
 
+1. [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) をインストールしてください。<br>
+※私は SAMMI を C:\Program Files\SAMMI に置いています。
+
+2. [obs-builder][obs_builder] を使用して、[OBS Studio 27.2.4][obs_27.2.4] をビルドしてください。ビルドした OBS Studio には、以下のプラグインが予めインストールされています。
+
+    <details open>
+      <summary>OBS Studio 27.2.4 & StreamFX 0.11.1 の場合</summary>
+    
+      * [StreamFX 0.11.1][StreamFX_0.11.1]
+      * [Move transition 2.6.1][Move_transition_2.6.1]
+      * [Scene Collection Manager 0.0.8][Scene_Collection_Manager]
+      * [OBS websocket 4.9.1][OBS_websocket_4.9.1]
+      * [OBS websocket 5.0.1][OBS_websocket_5.0.1]
+    </details>
+    
+    <details>
+      <summary>OBS Studio -Latest- & StreamFX -Latest- の場合</summary>
+      
+      * [StreamFX -Latest-][StreamFX]
+      * [Move transition -Latest-][Move_transition]
+      * [Scene Collection Manager 0.0.8][Scene_Collection_Manager]
+    </details>
+
+    > 2023/05/28: 現在、StreamFX はインストーラーは削除されています。<br>
+    > [obs-builder][obs_builder] を使用してビルドした安定版である [StreamFX 0.11.1][StreamFX_0.11.1] の動作は確認しております。本シーンコレクションを使用したい場合、[obs-builder][obs_builder] の Readme を参考に環境を構築してください。
+
+3. 下記リンクを参考に [OBS](https://obsproject.com/ja) と [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) の接続設定を行ってください。<br>※元々、LioranBoard 2 と SAMMI は同じソフトなので参考になるはずです。
+
+    > [LioranBoard 2の導入方法・TwitchとYouTube Liveとの連携](https://kurocha.jp/lioranboard2-setup)
+    >
+    > [【OBS】最強の無料ストリームデック LioranBoard2 導入ガイド配信【 VTuber / 毘沙門天ゆるいこ】](https://www.youtube.com/live/Vf76nyIeeng?feature=share)
+
+4. [Release](https://github.com/DriCro6663//releases) からシーンコレクションをダウンロードして圧縮ファイルを解凍してください。
+
+5. 下記リンクを参考に [Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/) を用いてシーンコレクションの json ファイルをインポートしてください。
+
+    > [OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager)
+
+    <details><summary>
+    画像：シーンコレクションバックアップのインポート
+    </summary>
+    
+    ![kurocha-import-01](https://kurocha.jp/wp-content/uploads/2022/05/2022-05-09_17h12_27-1.jpg)
+    
+    ![kurocha-import-02](https://kurocha.jp/wp-content/uploads/2022/05/2022-05-09_17h14_04.jpg)
+    
+    ![kurocha-import-03](https://kurocha.jp/wp-content/uploads/2022/05/2022-05-09_17h17_53.jpg)
+    
+    > [OBSのバックアップを簡単便利にするプラグイン](https://kurocha.jp/obs-scene-collection-manager)
+    </details>
+
+    <details><summary>
+    ※インポート後に問題があった場合、以下のサウンド設定を参考にしてください。
+    </summary>
+
+    * BGM: [深層世界](https://oto.how/sound/457), 再生速度：150 %, 音量：-32.0 db
+    * ED: [Seeds for the future / Free BGM Ver.](https://www.d-elf.com/free-bgm/free-bgm-ending), 音量：-16.0 db
+    * PET-boot-se: [サウンドデザイン-04](https://koukaon.g-sozai.com/se-532.html), 再生速度：50 %, 音量：-8.0 db
+    * task-bar-se: [Cyber11-1](https://otologic.jp/free/se/cyber02.html), 再生速度：200 %, 音量：+8.0 db
+    * loading-se: [Cyber13-1](https://otologic.jp/free/se/cyber02.html)
+    * scene-change-se: [Cyber14-1](https://otologic.jp/free/se/cyber02.html)
+    * decision-se: [Cyber15-1](https://otologic.jp/free/se/cyber02.html)
+    * PET-frame-se: [Cyber16-2](https://otologic.jp/free/se/cyber02.html)
+    * v-se: [Cyber17-1](https://otologic.jp/free/se/cyber02.html)
+
+    </details>
+
+6. [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) のデック環境をインポートしてください。<br>※念のため、インポート前にバックアップを作成しておいてください。
+
+    1. SAMMI を起動してください。
+    2. リリースからダウンロードして解凍した中の SAMMI フォルダ内にあるデックの json ファイルを開き、中身をコピーしてください。
+    3. その後、SAMMI 上で [Paste Deck] 項目を選択して、デックを展開してください。
+
+    <br>
+
+    <details>
+      <summary>デック共有</summary>
+      
+      > SAMMI で、共有したいデッキを選択して、その上で右クリックして「デッキをコピー」を選択します。これで、JSON のデッキデータがすべてクリップボードにコピーされる。その後、それをテキストファイルに貼り付けて、他の人と共有することができます。  
+      > 　デッキをインポートするには、SAMMI のサイドメニューで Paste Deck を押してください。
+      >
+      > Share a deck  
+      > In SAMMI, select a deck you wish to share with someone, right click on it and select Copy Deck. This will copy all your JSON deck data into your clipboard. You can then paste it into a text file to share with others.  
+      > To Import a deck, press Paste Deck in SAMMI’s side menu.  
+      > [SAMMI FAQ -Buttons & Commands-](https://sammi.solutions/docs/faq/commands)
+    </details>
+
+<details>
+    <summary>2023/05/21: 以前の使用方法</summary>
+    
 1. [OBS](https://obsproject.com/ja) と [SAMMI](https://github.com/SAMMISolutions/SAMMI-Official/releases) をインストールしてください。<br>※私は SAMMI を C:\Program Files\SAMMI に置いています。
 
 2. 以下ののプラグインを [OBS](https://obsproject.com/ja) にインストールしてください。
@@ -118,12 +223,24 @@
     > In SAMMI, select a deck you wish to share with someone, right click on it and select Copy Deck. This will copy all your JSON deck data into your clipboard. You can then paste it into a text file to share with others.  
     > To Import a deck, press Paste Deck in SAMMI’s side menu.  
     > [SAMMI FAQ -Buttons & Commands-](https://sammi.solutions/docs/faq/commands)
+</details>
 
-## 環境
+## 動作確認済み環境
+
+### ハードウェア
 
 PC: [GL72M 7RDX](https://www.msi.com/Laptop/GL72M-7RDX/Specification)  
 CPU: [i7-7700HQ CPU @ 2.80GHz 7th Gen](https://www.intel.co.jp/content/www/jp/ja/products/sku/97185/intel-core-i77700hq-processor-6m-cache-up-to-3-80-ghz/specifications.html)  
 GPU: GeForce® GTX 1050 with 2GB GDDR5
+
+### ソフトウェア
+
+* [OBS Studio 27.2.4][obs_27.2.4]
+* [StreamFX 0.11.1][StreamFX_0.11.1]
+* [Move transition 2.6.1][Move_transition_2.6.1]
+* [Scene Collection Manager 0.0.8][Scene_Collection_Manager]
+* [OBS websocket 4.9.1][OBS_websocket_4.9.1]
+* [OBS websocket 5.0.1][OBS_websocket_5.0.1]
 
 ## 注意
 
